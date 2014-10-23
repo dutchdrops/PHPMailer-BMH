@@ -16,11 +16,18 @@
     "require"           : {
         "php" : ">=5.3.3"
     },
-    "autoload"          : {
+  "autoload"    : {
         "classmap" : ["./"],
         "psr-0"    : {
-            "DI" : "src/"
         }
+    },
+    "scripts" : {
+        "pre-install-cmd" : [],
+        "post-install-cmd" : [],
+        "pre-update-cmd" : [],
+        "post-update-cmd" : [],
+        "pre-autoload-dump" : [],
+        "post-autoload-dump" : []
     }
 }
 
